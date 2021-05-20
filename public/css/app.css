@@ -1,0 +1,127 @@
+html,
+body {
+    width             : 100%;
+    padding           : 0;
+    margin            : 0;
+    font-family       : 'Nunito', sans-serif;
+    background-color  : white;
+}
+
+body {
+    padding-bottom  : 100px;
+}
+
+header {
+    background    : #232946;
+    color         : white;
+    height        : 5.2rem;
+    line-height   : 5.2rem;
+    padding-left  : 20px;
+    color         : white;
+    font-size     : 20px;
+    font-weight   : 500;
+}
+
+header a {
+    color            : white;
+    text-decoration  : none !important;
+}
+
+.has--error {
+    color       : #e53170;
+    margin-top  : 4px;
+}
+
+input[type="radio"] {
+    margin-left: 0;
+}
+
+label[for] {
+    margin-right: 10px;
+}
+
+form label {
+    font-size  : 16px;
+}
+
+.mail-form {
+    padding-top  : 20px;
+}
+
+/* Page */
+
+.x__home {
+    display                : grid;
+    grid-template-columns  : 1fr 2fr 1fr;
+}
+
+a {
+    color  : #f25f4c !important;
+}
+
+button {
+    height          : 44px;
+    padding-left    : 6px;
+    padding-right   : 6px;
+    min-width       : 120px;
+    border          : none;
+    box-shadow      : none;
+    outline         : none;
+    text-transform  : lowercase;
+    font-weight     : 900;
+    background      : white;
+    font-size       : 16px;
+}
+
+.x__home__form button[type="submit"] {
+    border  : 2px solid #0f0e17;
+    color   : #0f0e17;
+}
+
+.x__home__form button[type="button"] {
+    border      : 2px solid #f25f4c;
+    background  : #f25f4c;
+    color       : white;
+}
+
+.x__home__form button[type="button"]+span {
+    /* float        : left; */
+    color        : #232946;
+    font-size    : 16px;
+    margin-left  : 7px;
+    font-weight  : 900;
+}
+
+
+.for--file input {
+    display  : none;
+}
+
+.for-preview {
+    width         : 80%;
+    margin-left   : auto;
+    margin-right  : auto;
+    margin-top    : 20px;
+}
+
+.for-preview .for--wrap {
+    padding   : 20px;
+    overflow  : scroll;
+    border    : 1px solid #232946;
+}
+
+.for-preview h1 {
+    text-align  : center;
+}
+
+h2 {
+    position  : relative;
+}
+
+h2:before {
+    position  : absolute;
+    content   : "# "attr(data-num);
+    color     : #232946;
+    left      : -50px;
+    opacity   : 0.3;
+}
