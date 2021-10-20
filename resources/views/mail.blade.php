@@ -6,5 +6,9 @@
         <div class="for--wrap">
             {!! $content !!}
         </div>
+        <br>
+        <div class="for--wrap">
+            {{ $content }}
+        </div>
     </div>
 </x-layout>
